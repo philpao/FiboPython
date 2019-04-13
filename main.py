@@ -4,6 +4,6 @@ def fibo(n):
   else:
     return fibo(n-1) + fibo(n-2)
 
-for i in range(1,21):
+for i in range(1,18):
   print("i, fibo(i): ",i, fibo(i))
   
